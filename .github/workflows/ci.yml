@@ -51,7 +51,7 @@ jobs:
         /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "Your_password123" -d master -i tests.sql -o test_results.txt
 
     - name: Upload test results artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: sql-test-results
         path: test_results.txt
