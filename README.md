@@ -33,10 +33,12 @@ sql_scripts/fraud_detection_script.sql
 
 This sets up the database, tables, and stored procedures.
 
-Verification
+## Verification
 
 USE fraud_analytics;
+
 SELECT COUNT(*) FROM transactions;
+
 -- Should return 8 sample records
 
 ## 📊 System Architecture
@@ -50,6 +52,7 @@ Processing Layer: Stored procedures and views analyzing transactions in real tim
 Presentation Layer: Data for dashboards, alerts, and reports
 
 ## 🔍 Fraud Detection Capabilities
+
 Pattern Recognition
 
 Velocity Fraud: Flags multiple transactions in a short time
