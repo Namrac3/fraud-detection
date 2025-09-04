@@ -2,7 +2,7 @@
 
 [![SQL Server](https://img.shields.io/badge/SQL_Server-2016%2B-blue)](https://www.microsoft.com/en-us/sql-server) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT) 
-[![Stars](https://img.shields.io/github/stars/your-username/your-repo?style=social)](https://github.com/your-username/your-repo/stargazers)
+
 
 A comprehensive, enterprise-grade **fraud detection system** built for SQL Server. It provides real-time transaction analysis, advanced pattern recognition, and automated alerting.
 
